@@ -1,0 +1,63 @@
+
+body{
+    background-color: #40E0D0	;
+    padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+   }
+   header{
+    text-align: center;
+    height: 100px;
+    padding-top: 1px;
+    background-color: #3399ff;
+    color: #FFFFFF;
+    font-size: x-large;
+   }
+   h3{
+    margin-top: 2px;
+    text-align: center;
+    background-color:#008B8B	;
+   }
+   h2{
+    margin-top: 2px;
+    text-align: center;
+    background-color: #008B8B	;
+   }
+   form{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+   }
+   table{
+    position: relative;
+  border-collapse: collapse;
+       table-layout: auto;
+  width: 100%;
+    
+   }
+   
+  
+  
+  #table-wrapper table thead th .text {
+    position:absolute;   
+    top:-20px;
+    z-index:2;
+    height:100px;
+    width:35%;
+    border:1px solid red;
+  }
+   #table-scroll {
+    height:300px;
+    overflow:auto;  
+    margin-top:20px;
+  }
+   th,td {
+    border: 1px solid #008B8B;
+    width: 100px;
+    overflow: hidden;
+    height:25px;
+  }
+  button{
+    background-color: #008B8B	;  
+  }
+  
+  
